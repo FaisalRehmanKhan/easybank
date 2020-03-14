@@ -92,7 +92,7 @@ display: none!important;
 	background: hsl(233, 26%, 24%);
 }
 
-@media (min-width: 766px) {
+@media (max-width: 766px) {
 
 	.intro-bg{
 	background-image: url("../images/bg-intro-mobile.svg");
