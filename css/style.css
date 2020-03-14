@@ -1,0 +1,115 @@
+
+.mynav{
+	background: hsl(0, 0%, 100%);
+	font-family: font-family: 'Public Sans', sans-serif;
+
+}
+body{
+	font-size: 18px;
+	overflow-x: hidden;
+	font-weight: 400;
+}
+.mymenubtn{
+	background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+	border-radius: 20px;
+	color:  hsl(0, 0%, 100%);
+	border: 0px ;
+}
+
+
+
+.navbar-nav a:hover{
+	background: hsl(136, 65%, 51%);
+	color: white!important;
+}
+
+
+@media (max-width: 992px) { 
+
+.menu-btn-div{
+display: none!important;
+}
+.navbar-nav{
+	text-align: center;
+}
+}
+
+.intro h2{
+	font-size: 40px;
+	width: 100% auto;
+}
+.intro p{
+
+	font-size: 18px;
+	width: 100% auto;
+	color: gray;
+}
+
+@media (min-width: 991.98px) { 
+.intro p{
+
+	font-size: 18px;
+	width: 70%;
+	color: gray;
+	position: relative;
+	left: 70px;
+}
+
+.intro-txt{
+	position: relative;
+	top: 50px;
+}
+
+
+}
+
+
+
+.intro-bg{
+	background-image: url("../images/bg-intro-desktop.svg");
+	background-size: cover;
+	background-position: center right; 
+}
+.choose-sec{
+
+	background: hsl(220, 16%, 96%)!important;
+}
+.intro{
+	width: 100vw;
+	height: calc(60px- 100vh);
+}
+.service-head{
+	font-size: 17px;
+}
+.service-para{
+	font-size: 14px;
+}
+.cards p {
+	font-size: 14px;
+}
+
+.foot{
+	background: hsl(233, 26%, 24%);
+}
+
+@media (max-width: 766px) {
+
+	.intro-bg{
+	background-image: url("../images/bg-intro-mobile.svg");
+			 }
+	.cards{
+		position: relative;
+		left:70px;
+		  }
+	.card{
+		width: 250px!important;
+
+		 }
+	.foot-img img{
+		width: 30%;
+		height: 30%;
+	}
+
+}
+
+
