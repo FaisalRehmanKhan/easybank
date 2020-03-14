@@ -92,14 +92,14 @@ display: none!important;
 	background: hsl(233, 26%, 24%);
 }
 
-@media (max-width: 766px) {
+@media (min-width: 766px) {
 
 	.intro-bg{
 	background-image: url("../images/bg-intro-mobile.svg");
 			 }
 	
 	.card{
-		width: calc(100vw/4)!important;
+		width: calc(100vw)!important;
 
 		 }
 	.foot-img img{
