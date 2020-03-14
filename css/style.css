@@ -97,10 +97,7 @@ display: none!important;
 	.intro-bg{
 	background-image: url("../images/bg-intro-mobile.svg");
 			 }
-	.cards{
-		position: relative;
-		left:70px;
-		  }
+	
 	.card{
 		width: 250px!important;
 
